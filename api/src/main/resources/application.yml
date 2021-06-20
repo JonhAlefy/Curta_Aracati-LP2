@@ -1,0 +1,11 @@
+server.port=${port:8081}
+
+spring:
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb+srv://curta_admin:Ja100807@cluster0.cdzqn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
